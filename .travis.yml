@@ -11,5 +11,5 @@ env:
         - TEST_SDK=iphonesimulator9.0 SIMULATOR=iphone
         - TEST_SDK=iphonesimulator9.1 SIMULATOR=iphone
     script:
-        - xctool test -test-sdk $TEST_SDK -simulator $SIMULATOR
+        - xctool test -test-sdk $TEST_SDK #-simulator $SIMULATOR
     
