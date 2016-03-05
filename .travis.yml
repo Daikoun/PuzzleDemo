@@ -1,6 +1,6 @@
 language: objective-c
 xcode_project: PuzzleDemo.xcodeproj # path to your xcodeproj folder
-xcode_scheme: PuzzleDemo
+xcode_scheme: Debug
 
 
 osx_image: xcode7.3,
