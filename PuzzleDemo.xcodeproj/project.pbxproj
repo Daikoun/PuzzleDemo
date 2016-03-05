@@ -16,7 +16,6 @@
 		C1C06C0A1C89682600233C43 /* PuzzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C091C89682600233C43 /* PuzzleView.m */; };
 		C1C06C0E1C89A0B200233C43 /* BallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C0D1C89A0B200233C43 /* BallModel.m */; };
 		C1C06C161C8AAF0A00233C43 /* PuzzleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C151C8AAF0A00233C43 /* PuzzleDemoTests.m */; };
-		C1C06C241C8AB7FB00233C43 /* PuzzleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C231C8AB7FB00233C43 /* PuzzleDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,6 @@
 		C1C06C151C8AAF0A00233C43 /* PuzzleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleDemoTests.m; sourceTree = "<group>"; };
 		C1C06C171C8AAF0A00233C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1C06C211C8AB7FB00233C43 /* PuzzleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C06C231C8AB7FB00233C43 /* PuzzleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleDemoUITests.m; sourceTree = "<group>"; };
-		C1C06C251C8AB7FB00233C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +86,6 @@
 			children = (
 				C1C06BF01C89678E00233C43 /* PuzzleDemo */,
 				C1C06C141C8AAF0A00233C43 /* PuzzleDemoTests */,
-				C1C06C221C8AB7FB00233C43 /* PuzzleDemoUITests */,
 				C1C06BEF1C89678E00233C43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,15 +135,6 @@
 				C1C06C171C8AAF0A00233C43 /* Info.plist */,
 			);
 			path = PuzzleDemoTests;
-			sourceTree = "<group>";
-		};
-		C1C06C221C8AB7FB00233C43 /* PuzzleDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C1C06C231C8AB7FB00233C43 /* PuzzleDemoUITests.m */,
-				C1C06C251C8AB7FB00233C43 /* Info.plist */,
-			);
-			path = PuzzleDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C06C241C8AB7FB00233C43 /* PuzzleDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
