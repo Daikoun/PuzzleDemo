@@ -16,10 +16,18 @@
 		C1C06C0A1C89682600233C43 /* PuzzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C091C89682600233C43 /* PuzzleView.m */; };
 		C1C06C0E1C89A0B200233C43 /* BallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C0D1C89A0B200233C43 /* BallModel.m */; };
 		C1C06C161C8AAF0A00233C43 /* PuzzleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C151C8AAF0A00233C43 /* PuzzleDemoTests.m */; };
+		C1C06C241C8AB7FB00233C43 /* PuzzleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C06C231C8AB7FB00233C43 /* PuzzleDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C1C06C181C8AAF0A00233C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C06BE61C89678E00233C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C06BED1C89678E00233C43;
+			remoteInfo = PuzzleDemo;
+		};
+		C1C06C261C8AB7FB00233C43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C1C06BE61C89678E00233C43 /* Project object */;
 			proxyType = 1;
@@ -46,6 +54,9 @@
 		C1C06C131C8AAF0A00233C43 /* PuzzleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C06C151C8AAF0A00233C43 /* PuzzleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleDemoTests.m; sourceTree = "<group>"; };
 		C1C06C171C8AAF0A00233C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C06C211C8AB7FB00233C43 /* PuzzleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C06C231C8AB7FB00233C43 /* PuzzleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleDemoUITests.m; sourceTree = "<group>"; };
+		C1C06C251C8AB7FB00233C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1C06C1E1C8AB7FB00233C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +89,7 @@
 			children = (
 				C1C06BF01C89678E00233C43 /* PuzzleDemo */,
 				C1C06C141C8AAF0A00233C43 /* PuzzleDemoTests */,
+				C1C06C221C8AB7FB00233C43 /* PuzzleDemoUITests */,
 				C1C06BEF1C89678E00233C43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +99,7 @@
 			children = (
 				C1C06BEE1C89678E00233C43 /* PuzzleDemo.app */,
 				C1C06C131C8AAF0A00233C43 /* PuzzleDemoTests.xctest */,
+				C1C06C211C8AB7FB00233C43 /* PuzzleDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +141,15 @@
 			path = PuzzleDemoTests;
 			sourceTree = "<group>";
 		};
+		C1C06C221C8AB7FB00233C43 /* PuzzleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C06C231C8AB7FB00233C43 /* PuzzleDemoUITests.m */,
+				C1C06C251C8AB7FB00233C43 /* Info.plist */,
+			);
+			path = PuzzleDemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +188,24 @@
 			productReference = C1C06C131C8AAF0A00233C43 /* PuzzleDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C1C06C201C8AB7FB00233C43 /* PuzzleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C06C281C8AB7FB00233C43 /* Build configuration list for PBXNativeTarget "PuzzleDemoUITests" */;
+			buildPhases = (
+				C1C06C1D1C8AB7FB00233C43 /* Sources */,
+				C1C06C1E1C8AB7FB00233C43 /* Frameworks */,
+				C1C06C1F1C8AB7FB00233C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C06C271C8AB7FB00233C43 /* PBXTargetDependency */,
+			);
+			name = PuzzleDemoUITests;
+			productName = PuzzleDemoUITests;
+			productReference = C1C06C211C8AB7FB00233C43 /* PuzzleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +219,10 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					C1C06C121C8AAF0A00233C43 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C1C06BED1C89678E00233C43;
+					};
+					C1C06C201C8AB7FB00233C43 = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = C1C06BED1C89678E00233C43;
 					};
@@ -192,6 +243,7 @@
 			targets = (
 				C1C06BED1C89678E00233C43 /* PuzzleDemo */,
 				C1C06C121C8AAF0A00233C43 /* PuzzleDemoTests */,
+				C1C06C201C8AB7FB00233C43 /* PuzzleDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +260,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C1C06C111C8AAF0A00233C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C06C1F1C8AB7FB00233C43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,6 +296,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1C06C1D1C8AB7FB00233C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C06C241C8AB7FB00233C43 /* PuzzleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +311,11 @@
 			isa = PBXTargetDependency;
 			target = C1C06BED1C89678E00233C43 /* PuzzleDemo */;
 			targetProxy = C1C06C181C8AAF0A00233C43 /* PBXContainerItemProxy */;
+		};
+		C1C06C271C8AB7FB00233C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C06BED1C89678E00233C43 /* PuzzleDemo */;
+			targetProxy = C1C06C261C8AB7FB00233C43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,6 +465,30 @@
 			};
 			name = Release;
 		};
+		C1C06C291C8AB7FB00233C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PuzzleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goo.PuzzleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PuzzleDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1C06C2A1C8AB7FB00233C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PuzzleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goo.PuzzleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PuzzleDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +514,14 @@
 			buildConfigurations = (
 				C1C06C1B1C8AAF0A00233C43 /* Debug */,
 				C1C06C1C1C8AAF0A00233C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1C06C281C8AB7FB00233C43 /* Build configuration list for PBXNativeTarget "PuzzleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C06C291C8AB7FB00233C43 /* Debug */,
+				C1C06C2A1C8AB7FB00233C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

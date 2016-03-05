@@ -38,6 +38,16 @@
                ReferencedContainer = "container:PuzzleDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1C06C201C8AB7FB00233C43"
+               BuildableName = "PuzzleDemoUITests.xctest"
+               BlueprintName = "PuzzleDemoUITests"
+               ReferencedContainer = "container:PuzzleDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
